@@ -1,0 +1,89 @@
+{
+  "workbench.colorTheme": "Monokai Night",
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#494949"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "editor.fontSize": 18,
+  "workbench.preferredHighContrastColorTheme": "Monokai Night",
+  "editor.mouseWheelZoom": true,
+  "editor.minimap.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.largeFileOptimizations": false,
+  "code-runner.clearPreviousOutput": true,
+  "vim.easymotion": true,
+  "vim.surround": true,
+  "vim.useCtrlKeys": true,
+  "editor.lineNumbers": "relative",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["<CAPS>"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "workbench.statusBar.visible": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [" "],
+      "after": ["leader", "leader", "leader", "b", "d", "w"]
+    },
+    {
+      "before": ["["],
+      "after": ["{"]
+    },
+    {
+      "before": ["]"],
+      "after": ["}"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<C-a>"],
+      "after": ["g", "g", "V", "G"]
+    },
+    {
+      "before": ["K"],
+      "after": ["i", "<Enter>", "<Esc>"]
+    }
+  ],
+  "vim.easymotionMarkerFontSize": "18",
+  "vim.easymotionMarkerFontWeight": "10",
+  "vim.easymotionMarkerWidthPerChar": 10,
+  "vim.easymotionMarkerBackgroundColor": "#91022F",
+  "vim.easymotionMarkerHeight": 20,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.fontWeight": "100",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.arrowParens": "avoid",
+  "prettier.quoteProps": "preserve",
+  "prettier.jsxBracketSameLine": true,
+  "prettier.proseWrap": "always",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "code-runner.runInTerminal": true,
+  "editor.smoothScrolling": true,
+  "window.zoomLevel": 0,
+  "editor.formatOnSave": true,
+}
